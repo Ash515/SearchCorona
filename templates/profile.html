@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile Details</title>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='profile.css')}}">
+    </head>
+    <body>
+        <div id="heading"><h2>Profile Information</h2></div>
+        <div class="main">
+            <form action="" method="POST">
+             Name:   <input type="text" name="u_name" placeholder="Enter your good name" id="uname"><br>
+             Age:   <input type="text" name="u_age" placeholder="Enter your Age" id="uage"><br>
+             Email:   <input type="text" name="u_email" placeholder="Enter your Email" id="uemail"><br>
+             Phone No:   <input type="text" name="u_phno" placeholder="Enter your phone number" id="uphno"><br>
+             Address:   <input type="text" name="u_address" placeholder="Enter your Address" id="uaddr"><br>
+             <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+    </body>
+</html>

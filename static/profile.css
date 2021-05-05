@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(12, 12, 44);
+    
+}
+#heading{
+    color:white;
+margin-left: 30px;
+}
+.main{
+    margin-left: 500px;
+    margin-right: 500px;
+    color:white;
+    margin-top:100px;
+    background-color:green;
+    padding-left: 30px;
+    padding-top: 50px;
+    height: 300px;
+    font-size:18px;}
+#uname{
+        margin-top: 10px;
+        width: 200px;
+        height: 20px;
+        margin-left: 60px;
+    }
+#uage{
+    margin-top: 10px;
+    margin-left: 75px;
+    width: 200px;
+    height: 20px;
+}
+#uemail{
+    margin-left: 65px;
+    margin-top: 10px;
+    width: 200px;
+    height: 20px;
+}
+#uphno{
+    margin-left: 35px;
+    margin-top: 10px;
+    width: 200px;
+    height: 20px;
+}
+#uaddr{
+    margin-left: 35px;
+    margin-top: 10px;
+    width: 200px;
+    height: 20px;
+}
+#submit{
+    margin-top: 40px;
+    margin-left: 100px;
+    height: 30px;
+    width: 100px;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+form{
+    margin-left: 50px;
+}
