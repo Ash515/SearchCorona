@@ -1,5 +1,6 @@
-# 🔰 DocCOVID 19 - Early Detection of COVID-19 🦠🦠
-Early detection of COVID-19 by using lungs CT scan images
+# 🔰 COVID 19 Detection 🦠🦠
+- Early detection of COVID-19 by using lungs CT scan images 
+- 2nd phase of [DocCOVID 19](https://github.com/Ash515/DocCOVID-19)
 
 # 🔰 Introduction 🔎
 Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
@@ -17,19 +18,13 @@ with the help of *Machine Learning* technology.
  
 # 🔰 Image Results ✨
 ## Patient's Site 🙎‍♂️
-<img src="/image results/index.png" width="400px"><img src="/image results/userlog.png" width="400px">
-<img src="/image results/userreg.png" width="400px"><img src="/image results/patientmain.png" width="400px">
-<img src="/image results/usernotify.png" width="400px"><img src="/image results/profile.png" width="400px">
-<img src="/image results/symptoms.png" width="400px">
-
-## Doctor's Site 👨‍⚕️
-<img src="/image results/docreg.png" width="400px"><img src="/image results/doclog.png" width="400px">
-<img src="/image results/doctormain.png" width="400px"><img src="/image results/Docnotify.png" width="400px">
-<img src="/image results/message1.png" width="400px"><img src="/image results/message2.png" width="400px">
+<img src="/image results/home.png" width="400px"><img src="/image results/profile.png" width="400px">
+<img src="/image results/symptoms.png" width="400px"><img src="/image results/searchengine.png" width="400px">
+<img src="/image results/report.png" width="400px">
 
 
 # 🔰 Developers 👨‍💻
 - [Ashwin Kumar Ramaswamy](https://github.com/Ash515)
 - [A. Tilakesh Raj](https://github.com/thilake)
 
-# 🔰 System Architecture
+
