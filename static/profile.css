@@ -1,26 +1,33 @@
 body{
-    background-color: rgb(12, 12, 44);
+    background-color: rgb(172, 172, 197);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 #heading{
+  
     color:white;
 margin-left: 30px;
-}
+background-color: rgba(155, 122, 127, 0.342);
+margin-right: 50px;
+padding-left: 30px;
+height:50px;}
 .main{
     margin-left: 500px;
     margin-right: 500px;
     color:white;
     margin-top:100px;
-    background-color:green;
+    background-color:rgba(0, 128, 0, 0.699);
     padding-left: 30px;
     padding-top: 50px;
     height: 300px;
+    border-radius: 10px;
+    border-color: rgb(248, 252, 255);
     font-size:18px;}
 #uname{
         margin-top: 10px;
         width: 200px;
         height: 20px;
-        margin-left: 60px;
+        margin-left: 55px;
     }
 #uage{
     margin-top: 10px;
@@ -29,13 +36,13 @@ margin-left: 30px;
     height: 20px;
 }
 #uemail{
-    margin-left: 65px;
+    margin-left: 59px;
     margin-top: 10px;
     width: 200px;
     height: 20px;
 }
 #uphno{
-    margin-left: 35px;
+    margin-left: 20px;
     margin-top: 10px;
     width: 200px;
     height: 20px;
@@ -48,7 +55,7 @@ margin-left: 30px;
 }
 #submit{
     margin-top: 40px;
-    margin-left: 100px;
+    margin-left: 150px;
     height: 30px;
     width: 100px;
     background-color: brown;

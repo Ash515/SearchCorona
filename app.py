@@ -60,7 +60,10 @@ def reports():
     cursor.execute('SELECT mail,phno,status FROM results')
     cursor.connection.commit()
     reportdata=cursor.fetchall()
-    return render_template('reports.html',reportdata=reportdata)    
+    return render_template('reports.html',reportdata=reportdata)   
+
+
+
 
     
 
