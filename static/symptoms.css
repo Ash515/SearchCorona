@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(62, 62, 102);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#heading{
+    color:white;
+margin-left: 30px;
+}
+.main{
+    margin-left: 500px;
+    margin-right: 500px;
+    color:white;
+    margin-top:100px;
+    background-color:rgb(121, 29, 93);
+    padding-left: 30px;
+    padding-top: 50px;
+    height: 300px;
+    font-size:18px;}
+#umail{
+        margin-top: 10px;
+        width: 200px;
+        height: 20px;
+        margin-left: 80px;
+    }
+#bodypain{
+    margin-top: 10px;
+    margin-left:40px;
+    width: 200px;
+    height: 20px;
+}
+
+#uphno{
+    margin-left: 75px;
+    margin-top: 10px;
+    width: 200px;
+    height: 20px;
+}
+#fever{
+    margin-left: 70px;
+    margin-top: 10px;
+    width: 200px;
+    height: 20px;
+}
+#lowappetite{
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 200px;
+    height: 20px;
+}
+#musclepain{
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 200px;
+    height: 20px;
+}
+#submit{
+    margin-top: 40px;
+    margin-left: 100px;
+    height: 30px;
+    width: 100px;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+form{
+    margin-left: 50px;
+}

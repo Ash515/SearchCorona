@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Symptoms</title>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='symptoms.css')}}">
+    </head>
+    <body>
+        <div id="heading"><h2>Symptoms </h2></div>
+        <div class="main">
+            <form action="" method="POST">
+             Mail:   <input type="text" name="u_mail" placeholder="Enter your mail id" id="umail"><br>
+             Phno:   <input type="text" name="u_phno" placeholder="Enter your phone number" id="uphno"><br>
+             Fever:   <select name="fever" id="fever">
+                <option>Yes</option>
+                <option>Mild</option>
+                <option>No</option>
+            </select><br>
+             Bodypain:   <select name="bodypain" id="bodypain">
+                 <option>Yes</option>
+                 <option>Mild</option>
+                 <option>No</option>
+             </select><br>
+             Low appetite: <select name="lowappetite" id="lowappetite">
+                <option>Yes</option>
+                <option>Mild</option>
+                <option>No</option>
+            </select><br>
+             Muscle Pain:<select name="musclepain" id="musclepain">
+                <option>Yes</option>
+                <option>Mild</option>
+                <option>No</option>
+            </select><br>
+             <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+    </body>
+</html>
