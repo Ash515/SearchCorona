@@ -60,3 +60,18 @@ a{
 .symptoms:hover{
     background-color: rgba(68, 10, 20, 0.678);
 }
+.search{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#search{
+    width:250px;
+    height:30px;
+}
+#search-btn{
+    cursor: pointer;
+    color:white;
+    width:100px;
+    height: 30px;
+    background-color: rgba(66, 11, 11, 0.89);
+}

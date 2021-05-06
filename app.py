@@ -54,6 +54,22 @@ def symptoms():
         return redirect(url_for('index'))
      return render_template('symptoms.html')
 
+@app.route('/search',methods=['POST','GET']) 
+def search():
+    if request.method=='POST':
+         id=request.form['u_search']
+         cursor=mysql.connection.cursor(MySQLdb.cursors.DictCursor)
+         cursor.execute('SELECT * FROM results WHERE mail=%s ',(id,))
+         docdata=cursor.fetchall()
+         
+         cursor=mysql.connection.cursor(MySQLdb.cursors.DictCursor)
+         cursor.execute('SELECT mail,phno,status FROM results')
+         cursor.connection.commit()
+         reportdata=cursor.fetchall()
+    return render_template('reports.html',reportdata=reportdata,docdata=docdata)
+   
+    
+
 @app.route('/reports')
 def reports():
     cursor=mysql.connection.cursor(MySQLdb.cursors.DictCursor)
