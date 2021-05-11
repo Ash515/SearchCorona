@@ -22,6 +22,9 @@ with the help of *Machine Learning* technology.
 <img src="/image results/symptoms.png" width="400px"><img src="/image results/searchengine.png" width="400px">
 <img src="/image results/report.png" width="400px">
 
+# 🔰 Video Result
+[Click here](https://drive.google.com/file/d/101VIxJLpuaqxTqeQ4grLIxDXTp-WvRDX/view?usp=sharing)
+
 
 # 🔰 Developers 👨‍💻
 - [Ashwin Kumar Ramaswamy](https://github.com/Ash515)
