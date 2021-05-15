@@ -28,6 +28,6 @@ with the help of *Machine Learning* technology.
 
 # 🔰 Developers 👨‍💻
 - [Ashwin Kumar Ramaswamy](https://github.com/Ash515)
-- [A. Tilakesh Raj](https://github.com/thilake)
+
 
 
